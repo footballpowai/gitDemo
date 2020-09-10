@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="EPL">
+<listeners>
+<listener class-name="test.Listeners"/>
+</listeners>
+
+
+  <test name="arsenal">
+  	<parameter name="url" value="arsenal.com"/>
+  	  	<parameter name="manager" value="Arsene Wenger"/>
+  	
+  
+    <classes>
+      <class name="test.day1"/>
+      <class name="test.day2"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="chelsea">
+  	<parameter name="url" value="chelsea.com"/>
+  	  	<parameter name="manager" value="Jose Mourinho"/>
+  	
+  <classes>
+  <class name="test.day3">
+  <!-- <methods>
+  <exclude name="africans.*"/>
+  </methods> -->
+  </class>
+  </classes>
+  
+  </test>
+</suite> <!-- Suite -->

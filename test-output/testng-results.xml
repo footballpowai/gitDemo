@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="11" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-30T01:24:03 IST" name="EPL" finished-at="2020-05-30T01:24:08 IST" duration-ms="5124">
+    <groups>
+      <group name="smoke">
+        <method signature="day1.arse1()[pri:0, instance:test.day1@4470f8a6]" name="arse1" class="test.day1"/>
+        <method signature="day2.arse3(java.lang.String, java.lang.String)[pri:0, instance:test.day2@484970b0]" name="arse3" class="test.day2"/>
+        <method signature="day3.chel1()[pri:0, instance:test.day3@13b13b5d]" name="chel1" class="test.day3"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2020-05-30T01:24:03 IST" name="arsenal" finished-at="2020-05-30T01:24:03 IST" duration-ms="49">
+      <class name="test.day2">
+        <test-method is-config="true" signature="arse4()[pri:0, instance:test.day2@484970b0]" started-at="2020-05-30T01:24:03 IST" name="arse4" finished-at="2020-05-30T01:24:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arse4 -->
+        <test-method signature="arse3(java.lang.String, java.lang.String)[pri:0, instance:test.day2@484970b0]" started-at="2020-05-30T01:24:03 IST" name="arse3" finished-at="2020-05-30T01:24:03 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arsenal.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Arsene Wenger]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arse3 -->
+      </class> <!-- test.day2 -->
+      <class name="test.day1">
+        <test-method signature="arse1()[pri:0, instance:test.day1@4470f8a6]" started-at="2020-05-30T01:24:03 IST" name="arse1" finished-at="2020-05-30T01:24:03 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arse1 -->
+        <test-method signature="arse2(java.lang.String, java.lang.String)[pri:0, instance:test.day1@4470f8a6]" started-at="2020-05-30T01:24:03 IST" name="arse2" data-provider="dataimpt" finished-at="2020-05-30T01:24:03 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1 username is good with right foot]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1 password is good with left foot]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arse2 -->
+        <test-method signature="arse2(java.lang.String, java.lang.String)[pri:0, instance:test.day1@4470f8a6]" started-at="2020-05-30T01:24:03 IST" name="arse2" data-provider="dataimpt" finished-at="2020-05-30T01:24:03 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2 username is good with composure]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2 password is bad with agression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arse2 -->
+        <test-method signature="arse2(java.lang.String, java.lang.String)[pri:0, instance:test.day1@4470f8a6]" started-at="2020-05-30T01:24:03 IST" name="arse2" data-provider="dataimpt" finished-at="2020-05-30T01:24:03 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3 username is good with heading]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3 password is good with chesting]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arse2 -->
+        <test-method is-config="true" signature="arseafter()[pri:0, instance:test.day1@4470f8a6]" started-at="2020-05-30T01:24:03 IST" name="arseafter" finished-at="2020-05-30T01:24:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arseafter -->
+      </class> <!-- test.day1 -->
+    </test> <!-- arsenal -->
+    <test started-at="2020-05-30T01:24:08 IST" name="chelsea" finished-at="2020-05-30T01:24:08 IST" duration-ms="25">
+      <class name="test.day3">
+        <test-method is-config="true" signature="bfrsuite()[pri:0, instance:test.day3@13b13b5d]" started-at="2020-05-30T01:24:02 IST" name="bfrsuite" finished-at="2020-05-30T01:24:03 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfrsuite -->
+        <test-method is-config="true" signature="chel11()[pri:0, instance:test.day3@13b13b5d]" started-at="2020-05-30T01:24:08 IST" name="chel11" finished-at="2020-05-30T01:24:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chel11 -->
+        <test-method is-config="true" signature="beformthd()[pri:0, instance:test.day3@13b13b5d]" started-at="2020-05-30T01:24:08 IST" name="beformthd" finished-at="2020-05-30T01:24:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beformthd -->
+        <test-method signature="africans1()[pri:0, instance:test.day3@13b13b5d]" started-at="2020-05-30T01:24:08 IST" name="africans1" finished-at="2020-05-30T01:24:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- africans1 -->
+        <test-method is-config="true" signature="aftermethd()[pri:0, instance:test.day3@13b13b5d]" started-at="2020-05-30T01:24:08 IST" name="aftermethd" finished-at="2020-05-30T01:24:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethd -->
+        <test-method signature="africans2()[pri:0, instance:test.day3@13b13b5d]" started-at="2020-05-30T01:24:08 IST" name="africans2" finished-at="2020-05-30T01:24:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- africans2 -->
+        <test-method is-config="true" signature="beformthd()[pri:0, instance:test.day3@13b13b5d]" started-at="2020-05-30T01:24:08 IST" name="beformthd" finished-at="2020-05-30T01:24:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beformthd -->
+        <test-method is-config="true" signature="aftermethd()[pri:0, instance:test.day3@13b13b5d]" started-at="2020-05-30T01:24:08 IST" name="aftermethd" finished-at="2020-05-30T01:24:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethd -->
+        <test-method signature="chel2()[pri:0, instance:test.day3@13b13b5d]" started-at="2020-05-30T01:24:08 IST" name="chel2" finished-at="2020-05-30T01:24:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chel2 -->
+        <test-method is-config="true" signature="beformthd()[pri:0, instance:test.day3@13b13b5d]" started-at="2020-05-30T01:24:08 IST" name="beformthd" finished-at="2020-05-30T01:24:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beformthd -->
+        <test-method is-config="true" signature="aftermethd()[pri:0, instance:test.day3@13b13b5d]" started-at="2020-05-30T01:24:08 IST" name="aftermethd" finished-at="2020-05-30T01:24:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethd -->
+        <test-method is-config="true" signature="beformthd()[pri:0, instance:test.day3@13b13b5d]" started-at="2020-05-30T01:24:08 IST" name="beformthd" finished-at="2020-05-30T01:24:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beformthd -->
+        <test-method signature="chel1()[pri:0, instance:test.day3@13b13b5d]" started-at="2020-05-30T01:24:08 IST" name="chel1" finished-at="2020-05-30T01:24:08 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chel1 -->
+        <test-method is-config="true" signature="aftermethd()[pri:0, instance:test.day3@13b13b5d]" started-at="2020-05-30T01:24:08 IST" name="aftermethd" finished-at="2020-05-30T01:24:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethd -->
+        <test-method signature="africans3(java.lang.String, java.lang.String)[pri:0, instance:test.day3@13b13b5d]" started-at="2020-05-30T01:24:08 IST" name="africans3" finished-at="2020-05-30T01:24:08 IST" depends-on-methods="test.day3.chel2" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chelsea.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jose Mourinho]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- africans3 -->
+        <test-method is-config="true" signature="beformthd()[pri:0, instance:test.day3@13b13b5d]" started-at="2020-05-30T01:24:08 IST" name="beformthd" finished-at="2020-05-30T01:24:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beformthd -->
+        <test-method is-config="true" signature="chel111()[pri:0, instance:test.day3@13b13b5d]" started-at="2020-05-30T01:24:08 IST" name="chel111" finished-at="2020-05-30T01:24:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chel111 -->
+        <test-method is-config="true" signature="aftermethd()[pri:0, instance:test.day3@13b13b5d]" started-at="2020-05-30T01:24:08 IST" name="aftermethd" finished-at="2020-05-30T01:24:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethd -->
+        <test-method is-config="true" signature="aftrsuite()[pri:0, instance:test.day3@13b13b5d]" started-at="2020-05-30T01:24:08 IST" name="aftrsuite" finished-at="2020-05-30T01:24:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftrsuite -->
+      </class> <!-- test.day3 -->
+    </test> <!-- chelsea -->
+  </suite> <!-- EPL -->
+</testng-results>
