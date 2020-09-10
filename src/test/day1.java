@@ -22,6 +22,8 @@ public class day1 {
 		System.out.println("diaby");
 		System.out.println(strength);
 		System.out.println(weakness);
+		System.out.println("diaby");
+		System.out.println("diaby2");
 	}
 	
 	
